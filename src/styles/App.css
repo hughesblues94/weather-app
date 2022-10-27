@@ -7,9 +7,6 @@ body {
   background-color: #eceef1;
 }
 
-.forecast {
-  background-color: grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.weather-app {
+  margin: 0 20px;
 }
