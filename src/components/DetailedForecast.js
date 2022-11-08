@@ -8,7 +8,6 @@ const ForecastDetails = ({ forecast }) => {
 
     const formattedDate = new Date(date).toDateString()
 
-
     return (
         <div className="detailed-forecast-summary">
             <div className="detailed-forecast-summary__date">
