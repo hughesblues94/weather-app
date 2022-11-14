@@ -30,11 +30,20 @@ const ForecastDetails = ({ forecast }) => {
 };
 
 ForecastDetails.propTypes = {
-    date: PropTypes.number.isRequired,
-    temperature: PropTypes.shape({
-        min: PropTypes.number,
-        max: PropTypes.number
-    }).isRequired
+    forecast: PropTypes.shape({
+        date: PropTypes.number.isRequired,
+        temperature: PropTypes.shape({
+            min: PropTypes.number,
+            max: PropTypes.number
+        }).isRequired,
+        humidity: PropTypes.number,
+        wind: PropTypes.shape({
+            speed: PropTypes.number,
+            direction: PropTypes.string
+        })
+
+    })
+
 }
 
 
