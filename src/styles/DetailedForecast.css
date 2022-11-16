@@ -3,7 +3,3 @@
   flex-direction: column;
   align-items: center;
 }
-
-.detailed-forecast-summary__date {
-  height: 70px;
-}
